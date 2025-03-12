@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -56,5 +57,14 @@ dependencies {
     implementation(libs.okhttp)
     implementation (libs.logging.interceptor)
 
+    implementation ("androidx.lifecycle:lifecycle-viewmodel:2.6.0")
+    implementation ("androidx.lifecycle:lifecycle-livedata:2.6.0")
+    implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 
+    implementation ("com.tbuonomo:dotsindicator:5.1.0")
+
+    //firebase-firestorq
+    implementation ("com.google.firebase:firebase-firestore:25.1.2")
+    implementation ("com.google.firebase:firebase-auth:25.1.2")
 }
